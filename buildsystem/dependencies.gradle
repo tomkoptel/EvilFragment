@@ -14,7 +14,6 @@ ext {
     //Libraries
     daggerVersion = '2.0.2'
     butterKnifeVersion = '7.0.1'
-    recyclerViewVersion = '21.0.3'
     rxJavaVersion = '1.0.14'
     rxAndroidVersion = '1.0.1'
     javaxAnnotationVersion = '1.0'
@@ -43,6 +42,7 @@ ext {
             butterKnife:        "com.jakewharton:butterknife:${butterKnifeVersion}",
             recyclerView:       "com.android.support:recyclerview-v7:${supportLibVersion}",
             appcompatv7:        "com.android.support:appcompat-v7:${supportLibVersion}",
+            supportDesign:      "com.android.support:design:${supportLibVersion}",
     ]
 
     dataDependencies = [
